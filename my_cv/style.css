@@ -1,0 +1,118 @@
+body {font-size: 0.85em;}
+
+ul {padding-left: 0; margin-left: 30px;}
+
+.wrapper {
+    position: relative;
+    height: 1200px;
+    width: 800px;
+    margin: auto;
+}
+
+.leftside {
+    position: relative;
+    height: 100%;
+    width: 35%;
+    background-color: #272419;
+    float: left;
+    color: #C18A23;
+}
+
+.rightside {
+    position: relative;
+    height: 100%;
+    width: 65%;
+    background-color: #C18A23;
+    float: left;
+}
+
+.cv-title {
+    margin-top: 7.25%;
+    position: absolute;
+    height: 8.33%;
+    width: 100%;
+    background-color: #AC240E;
+}
+
+.photo {
+    position: relative;
+    background-color: white;
+    height: 16.66%;
+    width: 71.428%;
+    margin: 14.286%;
+    z-index: 5;
+}
+
+.myphoto {
+    margin: 10px;
+}
+
+.container-left {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.aboutme {
+    font-size: 1.3em;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.socialmedia {
+    font-size: 1.3em;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.name {
+    color: #272419;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 300px;
+    width: 470px;
+    height: 100%;
+    background-color: #C18A23;
+}
+
+.ocupation {
+    display: block;
+    margin: 30px 0 160px 0;
+}
+
+.container-right {
+    margin: 0 35px 0 35px;
+}
+
+.title {
+    height: 30px;
+    font-size: 1.6em;
+    background-color: #AC750E;
+}
+
+.line {
+    background-color: #AC240E;
+    width: 10px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.abt {
+    padding: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
+    display: flex;
+}
+
+.abt-left {
+    width: 130px;
+    margin-right: 20px;
+}
+
+.abt-right {}
+
+.abt-top {
+    font-weight: bold;
+}
